@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-	<title>Thanh toán</title>
+	<title>Quản lý giỏ hàng</title>
 	</head>
 
 	
@@ -12,7 +12,8 @@
 		<!----start-Header---->
 	 <jsp:include page="include/homeHeader.jsp"></jsp:include>
 		<!----End-Header---->
-		  <jsp:include page="include/checkoutContent.jsp"></jsp:include>
+		 
+	<script>console.log(sp);</script>
 		   
 		<!----start-Footder---->
 	<jsp:include page="include/homeFooter.jsp"></jsp:include>

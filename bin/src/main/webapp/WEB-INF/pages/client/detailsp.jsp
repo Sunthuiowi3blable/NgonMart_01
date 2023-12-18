@@ -18,6 +18,4 @@
 	<jsp:include page="include/homeFooter.jsp"></jsp:include>
 	<!----End-Footder---->
 	</body>
-	
-	
 </html>

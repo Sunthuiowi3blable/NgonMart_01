@@ -7,6 +7,7 @@ $(document).ready(function() {
 	function ajaxGet(page){
 		// prepare data
    	    var data = $('#searchForm').serialize();	
+   	    console.log(data);
 		$.ajax({
 			type: "GET",		
 			data: data,
@@ -21,12 +22,11 @@ $(document).ready(function() {
 					                  '<td>' + sanPham.hangSanXuat.tenHangSanXuat + '</td>' +
 					                  '<td>' + sanPham.donGia + '</td>' +
 					                  '<td>' + sanPham.donViKho + '</td>' +
-					                  '<td width="0%">'+'<input type="hidden" id="sanPhamId" value=' + sanPham.id + '>'+ '</td>' + 
-					                  '<td> <button class="btn btn-warning btnChiTiet" style="margin-right: 6px">Chi tiết</button>' ;
+					                  '<td width="0%">'+'<input type="hidden" id="sanPhamId" value=' + sanPham.id + '>'+ '</td>' + '<td>' ;
 					
 					var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
 					sanPhamRow += ( checkTenDanhMuc != -1)?'<button class="btn btn-primary btnCapNhatLapTop" >Cập nhật</button>':'<button class="btn btn-primary btnCapNhatOther" >Cập nhật</button>';
-					sanPhamRow += '  <button class="btn btn-danger btnXoaSanPham">Xóa</button></td>'+'</tr>';
+					sanPhamRow += '   <button class="btn btn-danger btnXoaSanPham">Xóa</button></td>'+'</tr>';
 					$('.sanPhamTable tbody').append(sanPhamRow);
 				});
 								
@@ -76,10 +76,7 @@ $(document).ready(function() {
 	
     $(document).on('click', '#btnDuyetSanPham', function (event) {
     	event.preventDefault();
-    	$('.sanPhamTable tbody tr').remove();
-    	$('.pagination li').remove();
-    	ajaxGet(1);
-        
+        resetData();
     });
     
     
@@ -337,7 +334,7 @@ $(document).ready(function() {
      }
     
     
-	// click vào button xóa
+	// delete request
     $(document).on("click",".btnXoaSanPham", function() {
 		
     	var sanPhamId = $(this).parent().prev().children().val();	
@@ -350,8 +347,7 @@ $(document).ready(function() {
 			  type : "DELETE",
 			  url : "http://localhost:8080/laptopshop/api/san-pham/delete/" + sanPhamId,
 			  success: function(resultMsg){
-				  resetDataForDelete();
-				  alert("Xóa thành công");
+				 alert("Xóa thành công");
 			  },
 			  error : function(e) {
 				 console.log("ERROR: ", e);
@@ -361,62 +357,12 @@ $(document).ready(function() {
 		resetData();
      });
     
-	// click vào button chi tiết
-    $(document).on("click",".btnChiTiet", function() {
-		
-    	var sanPhamId = $(this).parent().prev().children().val();	
-    	console.log(sanPhamId);
-    	
-    	var href = "http://localhost:8080/laptopshop/api/san-pham/"+sanPhamId;
-		$.get(href, function(sanPham) {
-			$('.hinhAnh').attr("src", "/laptopshop/img/"+sanPham.id+".png");
-			$('.tenSanPham').html("<span style='font-weight: bold'>Tên sản phẩm: </span> "+ sanPham.tenSanPham);
-			$('.maSanPham').html("<span style='font-weight: bold'> Mã sản phẩm: </span>"+ sanPham.id);
-			$('.hangSangXuat').html("<span style='font-weight: bold'>Hãng sản xuất: </span>"+ sanPham.hangSanXuat.tenHangSanXuat);
-			
-			var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
-			
-			console.log(checkTenDanhMuc != -1);
-			if(checkTenDanhMuc != -1){
-			  $('.cpu').html("<span style='font-weight: bold'>CPU: </span>"+ sanPham.cpu);
-			  $('.ram').html("<span style='font-weight: bold'>RAM: </span>"+ sanPham.ram);
-			  $('.thietKe').html("<span style='font-weight: bold'>Thiết kế: </span>"+ sanPham.thietKe);
-			  $('.dungLuongPin').html("<span style='font-weight: bold'>Dung lượng pin: </span>"+ sanPham.dungLuongPin);
-			  $('.heDieuHanh').html("<span style='font-weight: bold'>Hệ điều hành: </span>"+ sanPham.heDieuHanh);
-			  $('.manHinh').html("<span style='font-weight: bold'>Màn hình: </span>"+ sanPham.manHinh);
-			}
-			$('.thongTinChung').html("<span style='font-weight: bold'>Thông tin chung: </span>"+ sanPham.thongTinChung);
-			$('.donGia').html("<span style='font-weight: bold'>Đơn giá: </span>"+ sanPham.donGia +" VNĐ");
-			$('.baoHanh').html("<span style='font-weight: bold'>Bảo hành: </span>"+ sanPham.thongTinBaoHanh);
-			$('.donViKho').html("<span style='font-weight: bold'>Đơn vị trong kho: </span>"+ sanPham.donViKho);
-			$('.donViBan').html("<span style='font-weight: bold'>Đơn vị bán: </span>"+ sanPham.donViBan);
-			
-		});
-			
-    	$('#chiTietModal').modal('show');
-    	
-    });
-    
-    // reset table after delete
-    function resetDataForDelete(){
-       	var count = $('.sanPhamTable tbody').children().length;
-    	$('.sanPhamTable tbody tr').remove();
-    	var page = $('li.active').children().text();
-    	$('.pagination li').remove();
-    	console.log(page);
-    	if(count == 1){    	
-    		ajaxGet(page -1 );
-    	} else {
-    		ajaxGet(page);
-    	}
-
-    };
-    
     // reset table after post, put, filter
     function resetData(){   	
     	var page = $('li.active').children().text();
     	$('.sanPhamTable tbody tr').remove();
     	$('.pagination li').remove();
+    	console.log($(".sanPhamTable tbody tr").length);
         ajaxGet(page);
     };
     
@@ -429,49 +375,13 @@ $(document).ready(function() {
     	ajaxGet(page);	
 	});
 	
-	
-    // event khi click vào nhấn phím vào ô tìm kiếm sản phẩm theo tên
-	$(document).on('keyup', '#searchById', function (event){
-		event.preventDefault();
-		var sanPhamId = $('#searchById').val();
-		console.log(sanPhamId);
-		if(sanPhamId != ''){
-    	  $('.sanPhamTable tbody tr').remove();
-    	  $('.pagination li').remove();
-		  var href = "http://localhost:8080/laptopshop/api/san-pham/"+sanPhamId;
-		  $.get(href, function(sanPham) {
-			  var sanPhamRow = '<tr>' +
-              '<td>' + '<img src="/laptopshop/img/'+sanPham.id+'.png" class="img-responsive" style="height: 50px; width: 50px" />'+'</td>' +
-              '<td>' + sanPham.tenSanPham + '</td>' +
-              '<td>' + sanPham.danhMuc.tenDanhMuc + '</td>' +
-              '<td>' + sanPham.hangSanXuat.tenHangSanXuat + '</td>' +
-              '<td>' + sanPham.donGia + '</td>' +
-              '<td>' + sanPham.donViKho + '</td>' +
-              '<td width="0%">'+'<input type="hidden" id="sanPhamId" value=' + sanPham.id + '>'+ '</td>' + 
-              '<td><button class="btn btn-warning btnChiTiet" style="margin-right: 6px">Chi tiết</button>'  ;
-
-              var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
-                  sanPhamRow += ( checkTenDanhMuc != -1)?'  <button class="btn btn-primary btnCapNhatLapTop" >Cập nhật</button>':'<button class="btn btn-primary btnCapNhatOther" >Cập nhật</button>';
-                  sanPhamRow += ' <button class="btn btn-danger btnXoaSanPham">Xóa</button></td>'+'</tr>';
-                  $('.sanPhamTable tbody').append(sanPhamRow);
-		  });
-		} else {
-			resetData();
-		}
-	});
-	
     // fill input form với JSon Object
     function populate(frm, data) {
     	  $.each(data, function(key, value){
     	    $('[name='+key+']', frm).val(value);
     	  });
     	}
-    
-	// event khi ẩn modal chi tiết
-	$('#chiTietModal').on('hidden.bs.modal', function(e) {
-		e.preventDefault();
-		$(".chiTietForm p").text(""); // reset text thẻ p
-	});
+
     
     // remove element by class name
     function removeElementsByClass(className){

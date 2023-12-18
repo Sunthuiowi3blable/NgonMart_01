@@ -2,25 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <head>
 <link rel="stylesheet" href="Frontend/css/searchResult.css">
-<script src="Frontend/js/jquery.min.js"></script>
-<script src="Frontend/js/responsiveslides.min.js"></script>
-<script src="js/client/accounting.js"></script>
-<script src="<c:url value='/js/client/search.js'/>" ></script>
 </head>
-
-<script type="text/javascript">	  
-	$(document).ready(function() { 
-		 $(".grid_1_of_4 .changeToVND").each(function() {
-			  var value = accounting.formatMoney($(this).text())+ ' VND';
-			  $(this).html(value);
-			});
-		
-		 
-	  });
-	</script>
-
-
-
 
 <body>
 	<div class="clear"> </div>
@@ -63,34 +45,26 @@
          				<c:if test = "${loop.index%4 == 0}">
          					<div class="section group">
          					<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id=${sanpham.id}">
-									<img style="width: 300px; height: 238px" src="/laptopshop/img/${sanpham.id}.png">
-									<h3>${sanpham.tenSanPham}</h3></a>
-									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
-									<h3></h3>
+									<img src="/laptopshop/img/${sanpham.id}.png">
+									<h3>${sanpham.tenSanPham}</h3>
+									<h4>${sanpham.donGia}</h4></a>
 							</div>
          				</c:if>
-         				
          				<c:if test = "${loop.index%4 != 0}">
          					<c:if test = "${loop.index%4 == 3}">
          						<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id=${sanpham.id}">
-									<img style="width: 300px; height: 238px" src="/laptopshop/img/${sanpham.id}.png">
-									<h3>${sanpham.tenSanPham}</h3></a>
-									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
-									<h3></h3>
-							</div>
+									<img src="/laptopshop/img/${sanpham.id}.png">
+									<h3>${sanpham.tenSanPham}</h3>
+									<h4>${sanpham.donGia}</h4></a>
+								</div>
 								</div>
 							</c:if>
-							
 							<c:if test = "${loop.index%4 != 3}">
 								<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id=${sanpham.id}">
-									<img style="width: 300px; height: 238px" src="/laptopshop/img/${sanpham.id}.png">
-									<h3>${sanpham.tenSanPham}</h3></a>
-									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
-									<h3></h3>
-							</div>
+									<img src="/laptopshop/img/${sanpham.id}.png">
+									<h3>${sanpham.tenSanPham}</h3>
+									<h4>${sanpham.donGia}</h4></a>
+								</div>
 							</c:if>
          				</c:if>  				
      				</c:if>
@@ -98,21 +72,17 @@
      					<c:if test = "${loop.index%4 == 0}">
      						<div class="section group">
          					<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id=${sanpham.id}">
-									<img style="width: 300px; height: 238px" src="/laptopshop/img/${sanpham.id}.png">
-									<h3>${sanpham.tenSanPham}</h3></a>
-									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng</button>
-									<h3></h3>
+									<img src="/laptopshop/img/${sanpham.id}.png">
+									<h3>${sanpham.tenSanPham}</h3>
+									<h4>${sanpham.donGia}</h4></a>
 							</div>
 							</div>
      					</c:if>
      					<c:if test = "${loop.index%4 != 0}">
      						<div class="grid_1_of_4 images_1_of_4 products-info"><a href="sp?id=${sanpham.id}">
-									<img style="width: 300px; height: 238px" src="/laptopshop/img/${sanpham.id}.png">
-									<h3>${sanpham.tenSanPham}</h3></a>
-									<h3 class="changeToVND">${sanpham.donGia}</h3>
-									<button onClick="addToCart(${sanpham.id})" class="btn btn-warning"><span class= "glyphicon glyphicon-shopping-cart pull-center"></span> Giỏ hàng </button>
-									<h3></h3>
+									<img src="/laptopshop/img/${sanpham.id}.png">
+									<h3>${sanpham.tenSanPham}</h3>
+									<h4>${sanpham.donGia}</h4></a>
 							</div>
 							</div>
      					</c:if>

@@ -13,36 +13,35 @@
 	<jsp:include page="template/sidebar.jsp"></jsp:include>
 
 	<div class="col-md-9 animated bounce">
-		<h3 class="page-header">Quản lý Danh Mục</h3>
+      <h3 class="page-header">Quản lý Danh Mục</h3>
 
-		<button class="btn btn-success btnThemDanhMuc">Thêm mới danh
-			mục</button>
-
-		<hr />
-		<!--       <ul class="breadcrumb">
+      <button class="btn btn-success btnThemDanhMuc">Thêm mới danh mục</button>
+      
+            <hr/>
+<!--       <ul class="breadcrumb">
         <li>
           <span class="glyphicon glyphicon-home">&nbsp;</span>Home</li>
         <li>
           <a href="#">Dashboard</a>
         </li> 
-      </ul>-->
-		<table class="table table-hover danhMucTable">
-			<thead>
-				<tr>
-					<th>Mã danh mục</th>
-					<th>Tên Danh mục</th>
-				</tr>
+      </ul>--> 
+      <table class="table table-hover danhMucTable">
+        <thead>
+        <tr>
+          <th>Mã danh mục</th>
+          <th>Tên Danh mục</th>
+         </tr>
 
-			</thead>
-			<tbody>
-			</tbody>
+        </thead>
+        <tbody>
+        </tbody>
 
-		</table>
-
-		<ul class="pagination">
-		</ul>
-	</div>
-	<div class="row col-md-6">
+      </table>
+      
+      <ul class="pagination">
+	  </ul>
+    </div>
+    <div class="row col-md-6">
 		<form class="danhMucForm" id="form">
 
 			<div>
@@ -52,8 +51,7 @@
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">Tạo mới/Cập
-									nhật danh mục</h5>
+								<h5 class="modal-title" id="exampleModalLabel">Tạo mới/Cập nhật danh mục</h5>
 								<button type="button" class="close" data-dismiss="modal"
 									aria-label="Close">
 									<span aria-hidden="true">&times;</span>
@@ -66,15 +64,14 @@
 								</div>
 								<div class="form-group">
 									<label for="name">Tên danh mục:</label> <input type="text"
-										class="form-control" id="tenDanhMuc"
-										placeholder="Nhập vào tên danh mục" required />
+										class="form-control" id="tenDanhMuc" placeholder="Nhập vào tên danh mục" required />
 								</div>
-
+								
 								<div class="modal-footer">
 									<button type="button" class="btn btn-secondary"
 										data-dismiss="modal">Hủy</button>
 									<input class="btn btn-primary" id="btnSubmit" type="button"
-										value="Xác nhận" />
+										value="Xác nhận"/>
 								</div>
 							</div>
 						</div>
@@ -83,10 +80,10 @@
 			</div>
 		</form>
 	</div>
-	</div>
+  </div>
 
 
 	<jsp:include page="template/footer.jsp"></jsp:include>
-	<script src="<c:url value='/js/danhMucAjax.js'/>"></script>
+	<script src="<c:url value='/js/danhMucAjax.js'/>" ></script>
 </body>
 </html>

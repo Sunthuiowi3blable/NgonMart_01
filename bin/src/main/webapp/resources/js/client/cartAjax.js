@@ -36,7 +36,6 @@ function deleteFromCart(id)
 function calculatePrice(id,value,price)
 {
 	var element = document.getElementById("item"+id+"_total");
-
 	element.innerHTML = value * price;
 }
 
@@ -48,6 +47,5 @@ function calculateOrder()
 		res = res + parseInt(element[i].textContent);
 	}
 	var element2 = document.getElementById("ordertotal");
-	resConvert = accounting.formatMoney(res);
-	element2.innerHTML = resConvert;
+	element2.innerHTML = res;
 }

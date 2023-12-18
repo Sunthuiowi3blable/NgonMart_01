@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Tìm kiếm sản phẩm</title>
+<title>Insert title here</title>
 </head>
 <body>
 			<!----start-Header---->
