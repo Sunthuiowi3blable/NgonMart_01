@@ -92,8 +92,8 @@
 		<div class="wrap">
 			<!----start-logo---->
 			<div class="logo">
-				<a href="<%=request.getContextPath()%>/"><img
-					src="Frontend/img/logo3.png" title="logo" /></a>
+				<%-- <a href="<%=request.getContextPath()%>/"><img
+					src="Frontend/img/logo3.png" title="logo" /></a> --%>
 			</div>
 			<!----end-logo---->
 			<!----start-top-nav---->

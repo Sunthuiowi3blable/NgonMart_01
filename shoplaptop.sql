@@ -98,7 +98,7 @@ CREATE TABLE `danh_muc` (
 
 LOCK TABLES `danh_muc` WRITE;
 /*!40000 ALTER TABLE `danh_muc` DISABLE KEYS */;
-INSERT INTO `danh_muc` VALUES (1,'Laptop'),(2,'PC ĐỒNG BỘ & PC GAMING'),(3,'TB NGHE NHÌN & GIẢI TRÍ'),(4,'LINH KIỆN MÁY TÍNH'),(5,'THIẾT BỊ LƯU TRỮ'),(6,'THIẾT BỊ MẠNG'),(7,'CAMERA QUAN SÁT'),(8,'PHỤ KIỆN CÁC LOẠI'),(9,'THIẾT BỊ VĂN PHÒNG');
+INSERT INTO `danh_muc` VALUES (1,'laptop'),(2,'MÓN NHẬU NHÂM NHI'),(3,'CƠM'),(4,'ĐỒ NƯỚC'),(5,'BÁNH'),(6,'ĐỒ ĂN VẶT'),(7,'ĐỒ UỐNG CÓ CỒN'),(8,'NƯỚC GIẢI KHÁT'),(9,'CAFE');
 /*!40000 ALTER TABLE `danh_muc` ENABLE KEYS */;
 UNLOCK TABLES;
 
