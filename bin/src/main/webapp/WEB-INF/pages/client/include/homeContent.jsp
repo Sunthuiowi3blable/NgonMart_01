@@ -21,15 +21,15 @@
 		    		<div class="section group">
 				<div class="grid_1_of_3 images_1_of_3">
 					  <a href="single.html"><img src="Frontend/img/acer.jpg"></a>
-					  <h3>Thương hiệu nổi bật </h3>
+					  <h3>Món ăn nổi bật </h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
 					   <a href="single.html"><img src="Frontend/img/lenovo2.png" style="background-color: white"></a>
-					  <h3 >Thương hiệu nổi bật</h3>
+					  <h3 >Món ăn nổi bật</h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
 					   <a href="single.html"><img src="Frontend/img/dell.png" style="background-color: white"></a>
-					  <h3>Thương hiệu nổi bật</h3>
+					  <h3>Món ăn nổi bật</h3>
 				</div>
 			</div>
 		    	</div>

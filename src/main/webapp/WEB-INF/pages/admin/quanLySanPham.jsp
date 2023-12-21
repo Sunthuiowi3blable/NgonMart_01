@@ -338,14 +338,14 @@
 												<p class="maSanPham"></p>
 												<p class="tenSanPham"></p>
 												<p class="hangSangXuat"></p>
-												<p class="cpu"></p>
+												<!-- <p class="cpu"></p>
 												<p class="ram"></p>
 												<p class="thietKe"></p>
 												<p class="heDieuHanh"></p>
 												<p class="manHinh"></p>
-												<p class="dungLuongPin"></p>
+												<p class="dungLuongPin"></p> -->
 												<p class="thongTinChung"></p>
-												<p class="baoHanh"></p>
+												<!-- <p class="baoHanh"></p> -->
 												<p class="donGia"></p>
 												<p class="donViKho"></p>
 												<p class="donViBan"></p>

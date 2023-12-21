@@ -22,7 +22,7 @@
 						<c:if test = "${sp.getCpu().length() > 0}">
 							<p class="product-description">CPU: ${sp.getCpu()}</p>
 						</c:if>
-						<c:if test = "${sp.getRam().length() > 0}">
+						<%-- <c:if test = "${sp.getRam().length() > 0}">
 							<p class="product-description">RAM: ${sp.getRam()}</p>
 						</c:if>
 						<c:if test = "${sp.getThietKe().length() > 0}">
@@ -36,9 +36,9 @@
 						</c:if>
 						<c:if test = "${sp.getDungLuongPin().length() > 0}">
 							<p class="product-description">Dung lượng pin: ${sp.getDungLuongPin()}</p>
-						</c:if>
+						</c:if> --%>
 						<p class="product-description"><span class="important">Thông tin chung:</span> ${sp.getThongTinChung()}</p>
-						<p class="product-description"><span class="important">Bảo hành:</span> ${sp.getThongTinBaoHanh()}</p>
+						<%-- <p class="product-description"><span class="important">Bảo hành:</span> ${sp.getThongTinBaoHanh()}</p> --%>
 						<h4 class="price">Giá bán: <span>${sp.getDonGia()} VND</span></h4>
 						<div class="action">
 							<button class="add-to-cart btn btn-default" type="button" onclick='window.alert("Đã thêm sản phẩm vào giỏ hàng");'>Giỏ hàng</button>
