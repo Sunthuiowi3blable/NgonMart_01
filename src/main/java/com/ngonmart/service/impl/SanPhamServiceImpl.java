@@ -124,7 +124,7 @@ public class SanPhamServiceImpl implements SanPhamService {
 
 	@Override
 	public List<SanPham> getLatestSanPham() {
-		return sanPhamRepo.findFirst12ByDanhMucTenDanhMucContainingIgnoreCaseOrderByIdDesc("Laptop");
+		return sanPhamRepo.findFirst12ByDanhMucTenDanhMucContainingIgnoreCaseOrderByIdDesc("MÓN ĂN ĐẶC BIỆT");
 	}
 
 	public Iterable<SanPham> getSanPhamByTenSanPhamWithoutPaginate(SearchSanPhamObject object) {

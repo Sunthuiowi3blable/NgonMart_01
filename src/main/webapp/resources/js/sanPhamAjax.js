@@ -24,7 +24,7 @@ $(document).ready(function() {
 					                  '<td width="0%">'+'<input type="hidden" id="sanPhamId" value=' + sanPham.id + '>'+ '</td>' + 
 					                  '<td> <button class="btn btn-warning btnChiTiet" style="margin-right: 6px">Chi tiết</button>' ;
 					
-					var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
+					var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("MÓN ĂN ĐẶC BIỆT".toLowerCase());
 					sanPhamRow += ( checkTenDanhMuc != -1)?'<button class="btn btn-primary btnCapNhatLapTop" >Cập nhật</button>':'<button class="btn btn-primary btnCapNhatOther" >Cập nhật</button>';
 					sanPhamRow += '  <button class="btn btn-danger btnXoaSanPham">Xóa</button></td>'+'</tr>';
 					$('.sanPhamTable tbody').append(sanPhamRow);
@@ -57,7 +57,7 @@ $(document).ready(function() {
 		var open = $(this).data("isopen");
 		if (open) {
 			var label = $('#danhMucDropdown option:selected').text();
-			if ((label.toLowerCase()).indexOf("Laptop".toLowerCase()) != -1) {
+			if ((label.toLowerCase()).indexOf("MÓN ĂN ĐẶC BIỆT".toLowerCase()) != -1) {
 				$('.lapTopModal').modal('show');
 				$("#idDanhMucLaptop").val($(this).val());
 				$('#lapTopForm').removeClass().addClass("addLapTopForm");
@@ -374,7 +374,7 @@ $(document).ready(function() {
 			$('.maSanPham').html("<span style='font-weight: bold'> Mã sản phẩm: </span>"+ sanPham.id);
 			$('.hangSangXuat').html("<span style='font-weight: bold'>Hãng sản xuất: </span>"+ sanPham.hangSanXuat.tenHangSanXuat);
 			
-			var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
+			var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("MÓN ĂN ĐẶC BIỆT".toLowerCase());
 			
 			console.log(checkTenDanhMuc != -1);
 			if(checkTenDanhMuc != -1){
@@ -450,7 +450,7 @@ $(document).ready(function() {
               '<td width="0%">'+'<input type="hidden" id="sanPhamId" value=' + sanPham.id + '>'+ '</td>' + 
               '<td><button class="btn btn-warning btnChiTiet" style="margin-right: 6px">Chi tiết</button>'  ;
 
-              var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("Laptop".toLowerCase());
+              var checkTenDanhMuc = (sanPham.danhMuc.tenDanhMuc.toLowerCase()).indexOf("MÓN ĂN ĐẶC BIỆT".toLowerCase());
                   sanPhamRow += ( checkTenDanhMuc != -1)?'  <button class="btn btn-primary btnCapNhatLapTop" >Cập nhật</button>':'<button class="btn btn-primary btnCapNhatOther" >Cập nhật</button>';
                   sanPhamRow += ' <button class="btn btn-danger btnXoaSanPham">Xóa</button></td>'+'</tr>';
                   $('.sanPhamTable tbody').append(sanPhamRow);
