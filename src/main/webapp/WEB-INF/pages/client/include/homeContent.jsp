@@ -20,15 +20,15 @@
 		    	<div class="top-3-grids">
 		    		<div class="section group">
 				<div class="grid_1_of_3 images_1_of_3">
-					  <a><img src="Frontend/img/acer.jpg"></a>
+					  <a><img src="Frontend/img/117.png"></a>
 					  <h3>Món ăn nổi bật </h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
-					   <a><img src="Frontend/img/lenovo2.png" style="background-color: white"></a>
+					   <a><img src="Frontend/img/109.png" style="background-color: white"></a>
 					  <h3 >Món ăn nổi bật</h3>
 				</div>
 				<div class="grid_1_of_3 images_1_of_3 ">
-					   <a><img src="Frontend/img/dell.png" style="background-color: white"></a>
+					   <a><img src="Frontend/img/115.png" style="background-color: white"></a>
 					  <h3>Món ăn nổi bật</h3>
 				</div>
 			</div>
