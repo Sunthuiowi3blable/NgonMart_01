@@ -42,9 +42,9 @@
 
 			<form class="login-form" method="POST" action="${contextPath}/login">
 			    
-				<input type="text" placeholder="Email" name="email" required="required" style="padding:  10px;"/> 
+				<input type="text" placeholder="Email" name="email" required="required" style="padding:  10px; border-radius: 10px;"/> 
 				
-				<input type="password" placeholder="Mật khẩu" name="password" required="required" style="padding:  10px;" /> 
+				<input type="password" placeholder="Mật khẩu" name="password" required="required" style="padding:  10px; border-radius: 10px;" /> 
 				
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 				

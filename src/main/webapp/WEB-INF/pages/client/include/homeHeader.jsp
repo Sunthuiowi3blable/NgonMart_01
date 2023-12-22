@@ -46,7 +46,7 @@
 	<div class="wrap">
 		<!----start-Header---->
 		<div class="header">
-			<div class="search-bar">
+			<div class="search-bar", style="border-radius: 10px;">
 				<form action="/ngonmart/search">
 					<input type="text" name="name"><input type="submit"
 						value="Search" />
