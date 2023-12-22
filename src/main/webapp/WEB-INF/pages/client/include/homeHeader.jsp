@@ -92,7 +92,7 @@
 		<div class="wrap">
 			<!----start-logo---->
 			<div class="logo">
-				<a " href="<%=request.getContextPath()%>/"><img style="max-width: 50%", 
+				<a " href="<%=request.getContextPath()%>/"><img style="max-width: 25%", 
 					src="Frontend/img/logo4.png" title="logo" /></a>
 			</div>
 			<!----end-logo---->

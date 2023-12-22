@@ -21,7 +21,8 @@
 	<c:set var="contextPath" value="${pageContext.request.contextPath}" />
 	<div class="login-page">
 		<div class="form">
-		    <h2 class="form-signin-heading" style="text-align: center">LaptopShop - Đăng nhập</h2>
+		    <h2 class="form-signin-heading" style="text-align: center"> <a href="http://localhost:8080/ngonmart/">NgonMart - Đăng nhập</a>
+</h2>
 		    <hr>
 			<c:if test="${param.error != null}">
 				<div class="alert alert-danger">
