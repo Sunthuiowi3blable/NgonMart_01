@@ -92,7 +92,7 @@
 		<div class="wrap">
 			<!----start-logo---->
 			<div class="logo">
-				<a " href="<%=request.getContextPath()%>/"><img style="max-width: 25%", 
+				<a " href="<%=request.getContextPath()%>/"><img style="max-width: 50%", 
 					src="Frontend/img/logo4.png" title="logo" /></a>
 			</div>
 			<!----end-logo---->
@@ -101,7 +101,7 @@
 				<ul>
 					<li><a href="<%=request.getContextPath()%>/">Trang chủ</a></li>
 
-					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Cửa hàng <span class="caret"></span></a>
+					<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="">Cửa hàng <span class="caret"></span></a>
 						<ul class="dropdown-menu" style="background: #94cb32" id="danhmuc2">
 						</ul></li>
 					<li><a href="<%=request.getContextPath()%>/shipping">Miễn

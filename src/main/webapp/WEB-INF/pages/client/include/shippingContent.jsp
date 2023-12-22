@@ -13,7 +13,7 @@
 			<br><br>
 			<p><b>1. LƯU Ý:</b></p><br>
 			<h3>- Sau khi bạn đặt hàng, trong vòng 30 phút làm việc chúng tôi sẽ liên lạc lại để xác nhận và kiểm tra thông tin.</h3>
-			<h3>- Những rủi ro phát sinh trong quá trình vận chuyển (va đập, rơi vỡ, tai nạn..) có thể ảnh hưởng đến đồ ăn, vì thế xin Quý Khách vui lòng kiểm tra hàng hóa thật kỹ trước khi nhận. Ngonmart sẽ không chịu trách nhiệm với những sai lệch hình thức của đồ ăn sau khi Quý khách đã nhận hàng.</h3>
+			<h3>- Những rủi ro phát sinh trong quá trình vận chuyển (va đập, rơi vỡ, tai nạn..) có thể ảnh hưởng đến đồ ăn, vì thế xin Quý Khách vui lòng kiểm tra đơn hàng thật kỹ trước khi nhận. Ngonmart sẽ không chịu trách nhiệm với những sai lệch hình thức của đồ ăn sau khi Quý khách đã nhận hàng.</h3>
 			<br>
 			<p><b>2. BẢNG GIÁ DỊCH VỤ VẨN CHUYỂN </b></p>
 			<br>
@@ -42,27 +42,27 @@ Giao hàng bán kính 3km và thu phí 15.000đ /1 lần giao. Km4 tính 6000đ/
 					</tr>
 				
 					<tr style="text-align: center;">
-						    <td>100.000đ - 300.000đ </td>
+						    <td>100.000đ - 200.000đ </td>
 						    <td>10km</td>
 						    <td>Giao hàng trong vòng 15p-30p </td>
 						    <td>Từ km thứ 11 thu phí 6.000/km, giao hàng tối đa 35 km</td>
 					</tr>
 					<tr style="text-align: center;">
-						    <td>Trên 300.000đ </td>
+						    <td>Trên 200.000đ </td>
 						    <td>15km</td>
 						    <td>Giao hàng trong vòng 1h
 								Giao hàng trong 24h (16km-35km) </td>
 						    <td>Từ km thứ 16 thu phí 6.000/km, giao hàng tối đa 35 km</td>
 					</tr>
 					<tr style="text-align: center;">
-						    <td> Trên 1.000.000đ</td>
+						    <td> Trên 500.000đ</td>
 						    <td>25km</td>
 						    <td> Theo thỏa thuận với khách hàng</td>
 						    <td>Từ km thứ 26 thu phí 10.000/km, giao hàng tối đa 45 km</td>
 					</tr>
 					
 						<tr style="text-align: center;">
-						    <td>trên 3.000.000đ</td>
+						    <td>trên 1.000.000đ</td>
 						    <td>50km</td>
 						    <td>Theo thỏa thuận với khách hàng </td>
 						    <td>Theo thỏa thuận với khách hàng</td>
@@ -75,7 +75,7 @@ Giao hàng bán kính 3km và thu phí 15.000đ /1 lần giao. Km4 tính 6000đ/
 			
 			<br>
 			<p>
-			- Đối với đơn hàng từ 500.000 đ đến 3000.000 đ mà cồng kềnh cần phải giao bằng ô tô thì miễn phí km như khoảng cách giao hàng xe máy và tính phí vượt quá km đối với ô tô là 10.000/km
+			- Đối với đơn hàng từ 500.000đ đến 1.000.000đ mà cồng kềnh cần phải giao bằng ô tô thì miễn phí km như khoảng cách giao hàng xe máy và tính phí vượt quá km đối với ô tô là 10.000/km
 			</p>
 			
 			
