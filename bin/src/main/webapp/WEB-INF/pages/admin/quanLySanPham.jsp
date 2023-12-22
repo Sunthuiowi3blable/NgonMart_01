@@ -54,11 +54,11 @@
 			<div class="form-group">
 				<select class="form-control" name="donGia" id="price">
 					<option value="">Tất cả giá</option>
-					<option value="duoi-2-trieu">Dưới 2 triệu</option>
-					<option value="2-trieu-den-4-trieu">2 triệu đến 4 triệu</option>
-					<option value="4-trieu-den-6-trieu">4 triệu - 6 triệu</option>
-					<option value="6-trieu-den-10-trieu">6 triệu - 10 triệu</option>
-					<option value="tren-10-trieu">Trên 10 triệu</option>
+					<option value="duoi-30-nghin">Dưới 30 nghìn</option>
+					<option value="30-nghin-den-50-nghin">30 nghìn đến 50 nghìn</option>
+					<option value="50-nghin-den-100-nghin">50 nghìn đến 100 nghìn</option>
+					<option value="100-nghin-den-200-nghin">100 nghìn đến 200 nghìn</option>
+					<option value="tren-200-nghin">Trên 200 nghìn</option>
 				</select>
 			</div>
 
