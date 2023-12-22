@@ -149,40 +149,8 @@
 								</c:forEach>				
         					</select>
         				</div>
-        				<c:if test = "${brand == 'Laptop'}">
-        				<p>Hệ điều hành</p>
-        				<div class="select-range">
-        					<select name="os" class="form-control">
-        						<option value="">Tất cả hệ điều hành</option>
-								<option value="ubuntu">Ubuntu</option>
-								<option value="dos">DOS</option>
-								<option value="mac">MAC</option>
-								<option value="linux">Linux</option>
-								<option value="windows 10">Window 10</option>				
-        					</select>
-        				</div>
-        				<p>RAM</p>
-        				<div class="select-range">
-        					<select name="ram" class="form-control">
-        						<option value="">Tất cả ram</option>
-        						<option value="2 GB">2 GB</option>
-								<option value="3 GB">3 GB</option>
-								<option value="4 GB">4 GB</option>
-								<option value="6 GB">6 GB</option>
-								<option value="8 GB">8 GB</option>		
-								<option value="16 GB">16 GB</option>					
-        					</select>
-        				</div>
-        				<p>Pin</p>
-        				<div class="select-range">
-        					<select name="pin" class="form-control">
-        						<option value="">Tất cả pin</option>
-        						<c:forEach var="manufactor" items="${pinSet}" varStatus="loop">
-								<option value="${manufactor}">${manufactor}</option>
-								</c:forEach>				
-        					</select>
-        				</div>
-        				</c:if>
+        				
+        				
         					<input type="hidden" name="brand" value="${brand}">
         					<input class="search-submit" type="submit" value="Lọc sản phẩm">
 						</form>

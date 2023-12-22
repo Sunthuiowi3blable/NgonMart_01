@@ -26,9 +26,9 @@
 						<h2 class="product-title">${sp.getTenSanPham()}</h2>
 						<h4 class="price">Mô tả sản phẩm</h4>
 						
-						<p class="product-description">Hãng sản xuất: ${sp.hangSanXuat.tenHangSanXuat}</p>
+						<p class="product-description">Nơi sản xuất: ${sp.hangSanXuat.tenHangSanXuat}</p>
 						<p class="product-description"><span class="important">THÔNG TIN CHUNG:</span> ${sp.getThongTinChung()}</p>
-						<p class="product-description"><span class="important">BẢO HÀNH:</span> ${sp.getThongTinBaoHanh()}</p>
+						
 						<h4 class="price" id ="blabla">Giá bán: <span id="priceConvert"></span></h4>
 						<div class="action">
 							<button class="add-to-cart btn btn-warning" type="button">

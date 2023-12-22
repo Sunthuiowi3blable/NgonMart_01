@@ -7,7 +7,7 @@ $(document).ready(function(){
 			success: function(result){
 				$.each(result, function(i, danhmuc){
 					var content = '<li><a href="/ngonmart/store?brand='+danhmuc.tenDanhMuc+'"><span style=" font-size: 16px; font-weight: 900; ">'+danhmuc.tenDanhMuc+'</span></a></li>';
-					var content2 ='<li><a  style="padding-right: 100px" href="<%=request.getContextPath()%>/store?brand='+danhmuc.tenDanhMuc+'">'+danhmuc.tenDanhMuc+'</a></li>'
+					var content2 ='<li><a  style="padding-right: 100px" href="/ngonmart/store?brand='+danhmuc.tenDanhMuc+'">'+danhmuc.tenDanhMuc+'</a></li>'
 					$('#danhmuc').append(content);		
 					$('#danhmuc2').append(content2);	
 				})					
