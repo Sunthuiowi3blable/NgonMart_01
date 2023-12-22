@@ -28,7 +28,7 @@ function sendContact()
 			contentType : "application/json",
 			url: "http://localhost:8080/ngonmart/createContact",
 			success: function(result){
-				alert("Cảm ơn quý khách đã liên hệ với chúng tôi. Laptop shop sẽ phản hồi sớm cho các bạn");
+				alert("Cảm ơn quý khách đã liên hệ với chúng tôi. Ngonmart sẽ phản hồi sớm cho các bạn");
 				window.location.href = "/ngonmart/contact";
 			},
 			error : function(e){
