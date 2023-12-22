@@ -105,8 +105,7 @@
 						<ul class="dropdown-menu" style="background: #94cb32" id="danhmuc2">
 						</ul></li>
 						<li><a href="<%=request.getContextPath()%>/guarantee">Giới thiệu</a></li>
-					<li><a href="<%=request.getContextPath()%>/shipping">Miễn
-							phí vận chuyển</a></li>
+					<li><a href="<%=request.getContextPath()%>/shipping">Miễn phí vận chuyển</a></li>
 					
 
 					<li><a href="<%=request.getContextPath()%>/contact">Liên hệ</a></li>
