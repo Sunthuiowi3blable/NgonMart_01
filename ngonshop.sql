@@ -446,16 +446,14 @@ VALUES
 (109,27000,0,100,'Trà dâu tây','Vị chua chua, ngọt ngọt của những miếng dâu tây có màu đỏ bắt mắt hòa quyện cùng mùi thơm của trà lài và nước tắc tạo nên thức uống giải khát "trứ danh" hấp dẫn người dùng.',9,8),
 
 
-(110,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(111,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(112,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(113,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(114,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(115,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(116,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(117,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(118,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2),
-(119,23990000,0,100,'Macbook Air 13 128GB MQD32SA/A (2017)','hiệu năng được nâng cấp, thời lượng pin cực lâu, phù hợp cho nhu cầu làm việc văn phòng nhẹ nhàng, không cần quá chú trọng vào hiển thị của màn hình',1,2);
+(110,250000,0,100,'Vịt quay','Vịt được quay trong lò, với điểm nhấn là lớp da căng giòn, ăn kèm với bánh bao. Một món vịt ngon không thể không kể đến nước sốt vừng đậu phộng giúp thịt đậm đà tròn vị hơn.',1,2),
+(111,150000,0,100,'Pizza Neapolitan','Pizza Ý xứng đáng được xem là một tuyệt phẩm của ẩm thực thế giới, với những thành phần như bột mì, cà chua, dầu oliu, muối, húng quế và phô mai. Ngoài phiên bản nguyên gốc này, pizza cũng có nhiều biến thể khác với thành phần và hình thức đa dạng.',1,2),
+(112,20000,0,100,'Bánh Croissant (bánh sừng bò)','Bánh mì mềm mại phủ bơ và mứt raspberry ngọt béo trên đầu lưỡi. Một chiếc bánh sừng bò thơm tho và tách cà phê là đủ cho một bữa sáng nhẹ nhàng.',1,2),
+(113,35000,0,100,'Bún đậu mắm tôm','Đậu hũ và các loại chả cốm được chiên vàng giòn, béo bùi ăn cùng với bún kèm chút rau sống, dưa leo giòn ngọt. Thịt heo được luộc chín tới với lớp da dai béo, thịt thì mềm. Chấm với mắm tôm mặn mặn, cay cay được pha thêm chút tắc và đường chua chua, ngọt ngọt. Mới nghe thôi mà đã "chảy nước miếng" rồi đó nha!',1,2),
+(114,80000,0,100,'Lẩu Thái chua cay','Nước lẩu chua chua, cay cay mang hương vị đặc trưng kiểu Thái. Các loại hải sản ăn kèm thì tươi, ngọt thịt, kết hợp với món ăn là đậu hũ, cà chua cùng hương vị cay nồng của sả gừng, giúp ấm bụng vào những ngày mưa lắm nhé!',1,2),
+(115,250000,0,100,'Gà hấp muối sả','Con gà nóng hổi, thơm lừng vị của sả, của muối hột. Lớp da gà vàng óng, không bị nứt, da gà thì beo béo cùng với thịt gà mềm ngon, chắc thịt, hòa quyện cùng chua nhè nhẹ của lá chanh. Chuẩn bị thêm một chén muối ớt chanh cùng lá chanh băm nhỏ để chấm thịt gà là bữa ăn sẽ thêm tròn vị đấy!',1,2),
+(116,40000,0,100,'Bún thang','Món ăn này là sự hoà trộn trọn vẹn giữa màu sắc, hương vị, cũng như cách trình bày, màu vàng của trứng rán thái sợi, màu trắng của giò, màu xanh của hành thái sợi hài hoà cùng màu nâu của nấm. ',1,2),
+(117,35000,0,100,'Xôi xoài','Xôi Xoài là món ăn đặc trưng được yêu thích tại đất nước Chùa Vàng. Vị béo ngậy của cốt dừa, từng hạt xôi nếp dẻo cùng vị xoài ngọt thơm mang đến một hương vị độc đáo, ấn tượng khiến bất cứ tín đồ ẩm thực nào cũng mê mệt.',1,2);
 
 /*!40000 ALTER TABLE `san_pham` ENABLE KEYS */;
 UNLOCK TABLES;
