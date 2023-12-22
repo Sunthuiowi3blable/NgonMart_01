@@ -96,24 +96,24 @@ public class SanPhamServiceImpl implements SanPhamService {
 
 		// tim theo don gia
 		switch (price) {
-		case "duoi-2-trieu":
-			builder.and(QSanPham.sanPham.donGia.lt(2000000));
+		case "duoi-30-nghin":
+			builder.and(QSanPham.sanPham.donGia.lt(30000));
 			break;
 
-		case "2-trieu-den-4-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(2000000, 4000000));
+		case "30-nghin-den-50-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(30000, 50000));
 			break;
 
-		case "4-trieu-den-6-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(4000000, 6000000));
+		case "50-nghin-den-100-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(50000, 100000));
 			break;
 
-		case "6-trieu-den-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(6000000, 10000000));
+		case "100-nghin-den-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(100000, 200000));
 			break;
 
-		case "tren-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.gt(10000000));
+		case "tren-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.gt(200000));
 			break;
 
 		default:
@@ -142,24 +142,24 @@ public class SanPhamServiceImpl implements SanPhamService {
 		}
 		// Muc gia
 		switch (price) {
-		case "duoi-2-trieu":
-			builder.and(QSanPham.sanPham.donGia.lt(2000000));
+		case "duoi-30-nghin":
+			builder.and(QSanPham.sanPham.donGia.lt(30000));
 			break;
 
-		case "2-trieu-den-4-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(2000000, 4000000));
+		case "30-nghin-den-50-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(30000, 50000));
 			break;
 
-		case "4-trieu-den-6-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(4000000, 6000000));
+		case "50-nghin-den-100-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(50000, 100000));
 			break;
 
-		case "6-trieu-den-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(6000000, 10000000));
+		case "100-nghin-den-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(100000, 200000));
 			break;
 
-		case "tren-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.gt(10000000));
+		case "tren-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.gt(200000));
 			break;
 
 		default:
@@ -193,24 +193,24 @@ public class SanPhamServiceImpl implements SanPhamService {
 		}
 		// Muc gia
 		switch (price) {
-		case "duoi-2-trieu":
-			builder.and(QSanPham.sanPham.donGia.lt(2000000));
+		case "duoi-30-nghin":
+			builder.and(QSanPham.sanPham.donGia.lt(30000));
 			break;
 
-		case "2-trieu-den-4-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(2000000, 4000000));
+		case "30-nghin-den-50-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(30000, 50000));
 			break;
 
-		case "4-trieu-den-6-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(4000000, 6000000));
+		case "50-nghin-den-100-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(50000, 100000));
 			break;
 
-		case "6-trieu-den-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(6000000, 10000000));
+		case "100-nghin-den-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(100000, 200000));
 			break;
 
-		case "tren-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.gt(10000000));
+		case "tren-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.gt(200000));
 			break;
 
 		default:
@@ -266,24 +266,24 @@ public class SanPhamServiceImpl implements SanPhamService {
 		String pin = object.getPin();
 		// Muc gia
 		switch (price) {
-		case "duoi-2-trieu":
-			builder.and(QSanPham.sanPham.donGia.lt(2000000));
+		case "duoi-30-nghin":
+			builder.and(QSanPham.sanPham.donGia.lt(30000));
 			break;
 
-		case "2-trieu-den-4-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(2000000, 4000000));
+		case "30-nghin-den-50-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(30000, 50000));
 			break;
 
-		case "4-trieu-den-6-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(4000000, 6000000));
+		case "50-nghin-den-100-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(50000, 100000));
 			break;
 
-		case "6-trieu-den-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.between(6000000, 10000000));
+		case "100-nghin-den-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.between(100000, 200000));
 			break;
 
-		case "tren-10-trieu":
-			builder.and(QSanPham.sanPham.donGia.gt(10000000));
+		case "tren-200-nghin":
+			builder.and(QSanPham.sanPham.donGia.gt(200000));
 			break;
 
 		default:
