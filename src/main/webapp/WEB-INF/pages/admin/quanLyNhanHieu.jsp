@@ -24,7 +24,7 @@
         <thead>
         <tr>
           <th>Mã</th>
-          <th>Tên Hãng</th>
+          <th>Tên nhãn hiệu</th>
           <th></th>
          </tr>
 
