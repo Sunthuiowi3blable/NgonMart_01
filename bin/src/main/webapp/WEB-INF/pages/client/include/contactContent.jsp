@@ -36,7 +36,7 @@
 				<textarea class="form-control" id="content"></textarea>
 			</div>
 		</form>
-		<button onClick="sendContact()" style="background-color:#d0011b; border-color: #d0011b">Gửi liên hệ</button>
+		<button onClick="sendContact()" class="btn btn-primary" style="background-color:#d0011b; border-color: #d0011b">Gửi liên hệ</button>
 	</div>
 <script src="<c:url value='/js/client/contactAjax.js'/>" ></script>	
 </body>
