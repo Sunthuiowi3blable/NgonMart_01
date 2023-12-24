@@ -61,6 +61,15 @@ a#show_cart{
     border-top:none;
     font-family: 'Open Sans', sans-serif;
 }
+
+.wrap .section group .col_1_of_4 .span_1_of_4 {
+	color: #fff;
+}
+
+.col_1_of_4 span_1_of_4 footer-lastgrid {
+	color: #fff;
+}
+
 .add-to-cart-button{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #E8E7DC;

@@ -4,19 +4,19 @@
 			<div class="wrap">
 			<div class="section group">
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>Thông tin chung</h3>
-					<p>Ăn là mê - Chê không tính tiền</p>
-					<p>Rẻ như bèo, nghèo cũng có tiền mua!</p>
+					<h3 style="color: #fff">Thông tin chung</h3>
+					<p style="color: #fff">Ăn là mê - Chê không tính tiền</p>
+					<p style="color: #fff">Rẻ như bèo, nghèo cũng có tiền mua!</p>
 				</div>
 				<div class="col_1_of_4 span_1_of_4">
-					<h3>Latest-News</h3>
-					<p>Bunbohue is coming...</p>
-					<p>Bunthang is coming...</p>
+					<h3 style="color: #fff">Latest-News</h3>
+					<p style="color: #fff">Bunbohue is coming...</p>
+					<p style="color: #fff">Bunthang is coming...</p>
 				</div>
 			  	<div class="col_1_of_4 span_1_of_4">
-					<h3>Địa điểm cửa hàng</h3>
-					<p> 233 Xuân Đỉnh-Hà Nội</p>
-					<p> 233 Xuân Đỉnh-Hà Nội</p>
+					<h3 style="color: #fff">Địa điểm cửa hàng</h3>
+					<p style="color: #fff"> 233 Xuân Đỉnh-Hà Nội</p>
+					<p style="color: #fff"> 233 Xuân Đỉnh-Hà Nội</p>
 				</div> 
 				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
 					<h3>Follow Us:</h3>

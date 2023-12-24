@@ -19,11 +19,11 @@
 					<p> 233 Xuân Đỉnh-Hà Nội</p>
 				</div> 
 				<div class="col_1_of_4 span_1_of_4 footer-lastgrid">
-					<h3>Follow Us:</h3>
+					<h3 style="color: #fff">Follow Us:</h3>
 					 <ul>
-					 	<li><a href="#"><img src="Frontend/img/twitter.png" title="twitter" />Twitter</a></li>
-					 	<li><a href="#"><img src="Frontend/img/facebook.png" title="Facebook" />Facebook</a></li>
-					 	<li><a href="#"><img src="Frontend/img/rss.png" title="Rss" />Rss</a></li>
+					 	<li><a style="color: #fff" href="#"><img src="Frontend/img/twitter.png" title="twitter" />Twitter</a></li>
+					 	<li><a style="color: #fff" href="#"><img src="Frontend/img/facebook.png" title="Facebook" />Facebook</a></li>
+					 	<li><a style="color: #fff" href="#"><img src="Frontend/img/rss.png" title="Rss" />Rss</a></li>
 					 </ul>
 				</div>
 			</div>

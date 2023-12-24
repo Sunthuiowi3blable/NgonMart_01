@@ -27,7 +27,7 @@
 .top_area_list_page {
 
     height: 45px;
-    background: #eee;
+    background: #ffebee;
     padding: 0 8px;
     margin-bottom: 8px;
 
@@ -47,9 +47,9 @@
     padding: 5px 9px 5px 10px;
     border: 1px solid #e5e5e5;
     border-left: none;
-    background: #94CB32;
+    background: #d0011b;
     font-weight: bold;
-    background: #94CB32;
+    background: #d0011b;
 	color: white;
 
 }

@@ -12,6 +12,7 @@ html {
 }
 body {
   margin: 0;
+  background: #ffebee
 }
 article,
 aside,
@@ -66,7 +67,7 @@ h1 {
 }
 mark {
   color: #000;
-  background: #ff0;
+  background: #d0011b;
 }
 small {
   font-size: 80%;
@@ -3222,8 +3223,8 @@ fieldset[disabled] .btn-info.active {
 }
 .btn-warning {
   color: #fff;
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #d0011b;
+  border-color: #d0011b;
 }
 .btn-warning:hover,
 .btn-warning:focus,
@@ -3232,8 +3233,8 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #ec971f;
-  border-color: #d58512;
+  background-color: #d0011b;
+  border-color: #d0011b;
 }
 .btn-warning:active,
 .btn-warning.active,
@@ -3258,11 +3259,11 @@ fieldset[disabled] .btn-warning:active,
 .btn-warning.disabled.active,
 .btn-warning[disabled].active,
 fieldset[disabled] .btn-warning.active {
-  background-color: #f0ad4e;
-  border-color: #eea236;
+  background-color: #d0011b;
+  border-color: #d0011b;
 }
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #d0011b;
   background-color: #fff;
 }
 .btn-danger {
@@ -4800,7 +4801,7 @@ a.label:focus {
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
-  background-color: #ec971f;
+  background-color: #d0011b;
 }
 .label-danger {
   background-color: #d9534f;
@@ -5066,7 +5067,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #fff;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -5074,7 +5075,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #d0011b;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
