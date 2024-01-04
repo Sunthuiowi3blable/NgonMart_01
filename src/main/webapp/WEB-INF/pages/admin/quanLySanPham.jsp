@@ -111,7 +111,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<h5 class="modal-title" id="exampleModalLabel">Thêm mới/ Cập
-								nhật Laptop</h5>
+								nhật món ăn</h5>
 							<button type="button" class="close" data-dismiss="modal"
 								aria-label="Close">
 								<span aria-hidden="true">&times;</span>
@@ -147,32 +147,32 @@
 										</c:forEach>
 									</select>
 								</div>
-								<div class="form-group col-md-4">
+								<!-- <div class="form-group col-md-4">
 									<label for="inputPassword4">Hệ điều hành</label> <input
 										type="text" class="form-control" name="heDieuHanh">
-								</div>
+								</div> -->
 
-								<div class="form-group col-md-4">
+								<!-- <div class="form-group col-md-4">
 									<label for="inputEmail4">Ram</label> <input type="text"
 										class="form-control" name="ram" required="required">
-								</div>
+								</div> -->
 
 							</div>
 
 							<div class="row">
 
-								<div class="form-group col-md-4">
+								<!-- <div class="form-group col-md-4">
 									<label for="inputPassword4">Màn hình</label> <input type="text"
 										class="form-control" name="manHinh" required="required">
-								</div>
-								<div class="form-group col-md-4">
+								</div> -->
+								<!-- <div class="form-group col-md-4">
 									<label for="inputEmail4">CPU</label> <input type="text"
 										class="form-control" name="cpu">
-								</div>
-								<div class="form-group col-md-4">
+								</div> -->
+								<!-- <div class="form-group col-md-4">
 									<label for="inputPassword4">Thiết kế</label> <input type="text"
 										class="form-control" name="thietKe" required="required">
-								</div>
+								</div> -->
 							</div>
 
 							<div class="row">
@@ -184,16 +184,16 @@
 							</div>
 
 							<div class="row">
-								<div class="form-group col-md-4">
+								<!-- <div class="form-group col-md-4">
 									<label for="inputEmail4">Dung lượng Pin</label> <input
 										type="text" class="form-control" name="dungLuongPin"
 										required="required">
-								</div>
-								<div class="form-group col-md-4">
+								</div> -->
+								<!-- <div class="form-group col-md-4">
 									<label for="inputEmail4">Thông tin bảo hành</label> <input
 										type="text" class="form-control" name="thongTinBaoHanh"
 										required="required">
-								</div>
+								</div> -->
 
 								<div class="form-group col-md-4">
 									<label for="inputPassword4">Số lượng</label> <input
