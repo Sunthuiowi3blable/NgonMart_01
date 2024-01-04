@@ -276,12 +276,12 @@
 										placeholder="" rows="2" name="thongTinChung"></textarea>
 								</div>
 							</div>
-							<div class="row">
+							<!-- <div class="row">
 								<div class="form-group col-md-6">
 									<label for="inputEmail4">Thông tin bảo hành</label> <input
 										type="text" class="form-control" id="inputEmail4"
 										name="thongTinBaoHanh">
-								</div>
+								</div> -->
 
 								<div class="form-group col-md-6">
 									<label for="inputPassword4">Số lượng</label> <input
