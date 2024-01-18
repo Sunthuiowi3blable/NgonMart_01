@@ -182,7 +182,7 @@
 										required="required">
 								</div>
 								<div class="form-group col-md-4">
-									<label for="inputEmail4">Thông tin bảo hành</label> <input
+									<label for="inputEmail4">Thông tin khác</label> <input
 										type="text" class="form-control" name="thongTinBaoHanh"
 										required="required">
 								</div>
@@ -270,7 +270,7 @@
 							</div>
 							<div class="row">
 								<div class="form-group col-md-6">
-									<label for="inputEmail4">Thông tin bảo hành</label> <input
+									<label for="inputEmail4">Thông tin khác</label> <input
 										type="text" class="form-control" id="inputEmail4"
 										name="thongTinBaoHanh">
 								</div>
